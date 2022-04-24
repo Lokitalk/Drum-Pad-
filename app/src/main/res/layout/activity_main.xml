@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:hint="@string/click"
+            android:background="@drawable/blue_button"
+            android:onClick="playsound1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+            android:layout_marginStart="5dp"
+            android:background="@drawable/blue_button"
+            android:onClick="playsound2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:hint="@string/click"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+            android:layout_marginStart="5dp"
+            android:hint="@string/click"
+            android:background="@drawable/blue_button"
+            android:onClick="playsound3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/purple"
+            android:onClick="playsound4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:hint="@string/click"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+            android:layout_marginStart="5dp"
+            android:hint="@string/click"
+            android:background="@drawable/orange"
+            android:onClick="playsound5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+
+            android:layout_marginStart="5dp"
+            android:hint="@string/click"
+            android:background="@drawable/pink"
+            android:onClick="playsound6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/green"
+            android:hint="@string/click"
+            android:onClick="playsound7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+            android:background="@drawable/green"
+            android:onClick="playsound8"
+            android:hint="@string/click"
+            android:layout_marginStart="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml" />
+        <Button
+            android:background="@drawable/green"
+            android:hint="@string/click"
+            android:onClick="playsound9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="ButtonStyle,OnClick,UsingOnClickInXml"
+            />
+
+    </LinearLayout>
+</LinearLayout>
